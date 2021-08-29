@@ -14,19 +14,6 @@ var specialchar = '!@#$%^&*&()_+',
 
 function getPasswordLength() {
   clength = parseInt(prompt("How many charaters are in your password?  Please choose between 8 and 128 characters."));
-
-  // if (!clength){  
-  //   do {
-  //     clength = parseInt(prompt("Please enter a NUMBER!")); 
-  //   }while(!clength); 
-  // }else if(clength < 8 || clength > 128){
-  //     do{ 
-  //       clength = parseInt(prompt("Knuckle Head choose a number between 8 and 128 characters!"));
-  //     } while(clength < 8 || clength > 128);
-  // }else {
-  //   //validate # of characters  
-  //   alert("Your password will contain "+clength+" characters.");
-  //   }
 }
 
 function getPasswordFormat() {
@@ -72,10 +59,9 @@ function writePassword() {
   getPasswordLength();
   do {
     if (clength < 8 || clength > 128) {
-      alert('Invalid password length!  Choose a number between 8 and 128.');
+      alert('Invalid password length!  Choose a NUMBER between 8 and 128.');
       getPasswordLength();
     }
-
   } while (clength < 8 || clength > 128);
 
   getPasswordFormat();

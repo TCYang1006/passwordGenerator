@@ -1,17 +1,15 @@
-# Password Generator Starter Code
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page# friendly-parakeet
-# friendly-parakeet
+Password Generator
+
+Description:
+This site will prompt the user for a the length of the password, if uppercase, lowercase, nunbers and special characters are acceptable in the password.  After gathering all of this information, a random password will be created.
+
+Usage:
+The hmtl file is 
+Used javascript to prompt user for password character length and confirm to collect if the password will include uppercase, lowercase, numbers and/or special characters.  This will return a random password with the requirement the user input.
+
+github URL
+git@github.com:TCYang1006/passwordGenerator.git
+
+live URL
+https://tcyang1006.github.io/passwordGenerator/
+
